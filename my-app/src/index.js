@@ -6,11 +6,6 @@ import reportWebVitals from './reportWebVitals';
 
 import 'semantic-ui-css/semantic.min.css'
 
-import Create from './components/Create';
-import Read_data from './components/Read_data';
-import Update from './components/Update';
-import { BrowserRouter as Router, Route, Routes, Link, Switch  } from 'react-router-dom'
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
