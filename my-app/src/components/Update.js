@@ -27,6 +27,8 @@ export default function Update() {
             jabatan
         }).then(() => {
             alert('Data berhasil diperbarui')
+            
+            window.location.href = "/read";
         })
     }
 

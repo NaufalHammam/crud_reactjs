@@ -17,6 +17,8 @@ export default function Create() {
             jabatan
         }).then(() => {
             alert('Data berhasil disimpan')
+            
+            window.location.href = "/read";
         })
     }
     return (
